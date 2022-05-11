@@ -1,7 +1,7 @@
 # Elasticsearch on Kubernetes
 This project is used to deploy Elasticsearch on kubernetes
 
-# How to Connect to K8s Cluster
+# Connect to K8s Cluster
 ```bash 
 export KUBECONFIG=./kubeconfig_244894765
 ```
