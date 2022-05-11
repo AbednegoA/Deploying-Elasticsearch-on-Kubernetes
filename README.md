@@ -1,10 +1,6 @@
 # Elasticsearch on Kubernetes
 This project is used to deploy Elasticsearch on kubernetes
 
-# Connect to K8s Cluster
-```bash 
-export KUBECONFIG=./kubeconfig_244894765
-```
 # Install kubectl binary with curl on Linux 
 - Download the latest release with the command
 ```bash
@@ -18,3 +14,9 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```bash
 kubectl version --client
 ```
+
+# Connect to K8s Cluster
+```bash 
+export KUBECONFIG=./kubeconfig_244894765
+```
+![Screenshot (7)](https://user-images.githubusercontent.com/104996017/167937536-6b092983-6ec8-4fe7-a864-f6de7e3ebc8d.png)
